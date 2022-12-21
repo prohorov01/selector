@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Селектори</title>
+  </head>
+  <body>
+    <p>
+      ID селектори - самий потужний тип селекторів. Це означає, що вони
+      "витісняють" інші типи селекторів, а стилі вказані з цим селектором
+      застосовуються першочергово.
+      <br />
+      Селектор класу - Це, можливо, самий використовуваний і універсальний тип
+      селектора. <br />
+      Тег селектор - Цей тип селекторів дуже корисний при зміні унікальних
+      властивостей HTML документа. Також цей тип використовується для "скидання"
+      стилів, коли ми намагаємося відмінити стилі, який браузер використовує для
+      певних елементів. <br />
+      Селектор атрибуту - Ви можете заявити, що атрибутні селектори більш
+      корисні ніж селектори класу, тому що вони мають однакову важливість, але
+      можуть бути будь-яким атрибутом, не тільки class, а також ми можемо
+      вибирати їх за значенням.
+    </p>
+    <div>
+      <aside id="happy-cake">селектор ID</aside>
+    </div>
+    <div class="module">селектор класу</div>
+    <h2>Назва елемента</h2>
+    <main>
+      <div>
+        <h2>Anywhere</h2>
+      </div>
+    </main>
+    <span style="color: crimson" class="one" id="one1">some-text11</span>
+    <div class="class-one">
+      <div class="class-two">
+        <div class="class-three">
+          <p style="color: chartreuse">some-text</p>
+        </div>
+      </div>
+    </div>
+    <p class="module">some-text <span>some-text2</span></p>
+  </body>
+</html>
